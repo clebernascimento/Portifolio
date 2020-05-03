@@ -87,15 +87,4 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
         }
     }
-
-    @Override
-    public void onBackPressed() {
-        int count = getSupportFragmentManager().getBackStackEntryCount();
-        System.out.println(count);
-        if (count == 0) {
-            //super.onBackPressed();
-        } else {
-            //getSupportFragmentManager().popBackStack();
-        }
-    }
 }
