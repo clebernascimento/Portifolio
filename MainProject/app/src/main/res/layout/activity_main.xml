@@ -80,7 +80,7 @@
                             android:gravity="center"
                             android:text="Financeiro"
                             android:textColor="@android:color/white"
-                            android:textSize="18sp" />
+                            android:textSize="14sp" />
                     </LinearLayout>
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
@@ -129,7 +129,7 @@
                             android:gravity="center"
                             android:text="Alura"
                             android:textColor="@android:color/white"
-                            android:textSize="18sp" />
+                            android:textSize="14sp" />
                     </LinearLayout>
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
@@ -178,7 +178,7 @@
                             android:gravity="center"
                             android:text="IMC"
                             android:textColor="@android:color/white"
-                            android:textSize="18sp" />
+                            android:textSize="14sp" />
                     </LinearLayout>
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
@@ -227,7 +227,7 @@
                             android:gravity="center"
                             android:text="Uniasselvi"
                             android:textColor="@android:color/white"
-                            android:textSize="18sp" />
+                            android:textSize="14sp" />
                     </LinearLayout>
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
@@ -276,7 +276,7 @@
                         android:gravity="center"
                         android:text="Ifood"
                         android:textColor="@android:color/white"
-                        android:textSize="18sp" />
+                        android:textSize="14sp" />
                 </LinearLayout>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -325,7 +325,7 @@
                         android:gravity="center"
                         android:text="Globo Esporte"
                         android:textColor="@android:color/white"
-                        android:textSize="18sp" />
+                        android:textSize="14sp" />
                 </LinearLayout>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
