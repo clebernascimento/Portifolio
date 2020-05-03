@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private CardView mImc;
     private CardView mUniasselvi;
     private CardView mIfood;
+    private CardView mGE;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.cardView_Ifood).setOnClickListener(this);
         findViewById(R.id.cardView_IMC).setOnClickListener(this);
         findViewById(R.id.cardView_Uniasselvi).setOnClickListener(this);
+        findViewById(R.id.cardView_GE).setOnClickListener(this);
 
     }
 
@@ -72,6 +74,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent iIfood = getPackageManager().getLaunchIntentForPackage("com.example.ifood");
                 if (iIfood != null) {
                     startActivity(iIfood);
+                    finish();
+                }
+                break;
+
+            case R.id.cardView_GE:
+                Intent iGloboEsporte = getPackageManager().getLaunchIntentForPackage("com.example.webgloboesporte");
+                if (iGloboEsporte != null) {
+                    startActivity(iGloboEsporte);
                     finish();
                 }
                 break;
