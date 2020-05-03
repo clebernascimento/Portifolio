@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.cardView_Finaceiro:
-                Intent iFinaceiro = getPackageManager().getLaunchIntentForPackage("f");
+                Intent iFinaceiro = getPackageManager().getLaunchIntentForPackage("com.cleber.financeiro");
                 if (iFinaceiro != null) {
                     startActivity(iFinaceiro);
                     finish();
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.cardView_Uniasselvi:
-                Intent iUniasselvi = getPackageManager().getLaunchIntentForPackage("u");
+                Intent iUniasselvi = getPackageManager().getLaunchIntentForPackage(" com.example.appmediauniasselvi");
                 if (iUniasselvi != null) {
                     startActivity(iUniasselvi);
                     finish();
@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.cardView_Ifood:
-                Intent iIfood = getPackageManager().getLaunchIntentForPackage("if");
+                Intent iIfood = getPackageManager().getLaunchIntentForPackage("com.example.ifood");
                 if (iIfood != null) {
                     startActivity(iIfood);
                     finish();
