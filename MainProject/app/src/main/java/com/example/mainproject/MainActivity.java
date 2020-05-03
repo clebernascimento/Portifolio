@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.cardView_Alura:
-                Intent iAlura = getPackageManager().getLaunchIntentForPackage("a");
+                Intent iAlura = getPackageManager().getLaunchIntentForPackage("com.example.webviewalura");
                 if (iAlura != null) {
                     startActivity(iAlura);
                     finish();
@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.cardView_Uniasselvi:
-                Intent iUniasselvi = getPackageManager().getLaunchIntentForPackage(" com.example.appmediauniasselvi");
+                Intent iUniasselvi = getPackageManager().getLaunchIntentForPackage("com.example.appmediauniasselvi");
                 if (iUniasselvi != null) {
                     startActivity(iUniasselvi);
                     finish();
