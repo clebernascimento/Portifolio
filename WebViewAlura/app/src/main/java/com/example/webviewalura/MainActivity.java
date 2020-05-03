@@ -1,7 +1,9 @@
 package com.example.webviewalura;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.webkit.WebSettings;
@@ -35,5 +37,20 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
         return super.onKeyDown(keyCode, event);
+    }
+
+    @Override
+    public void onBackPressed() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Sair do aplicativo");
+        builder.setMessage("Deseja sair do aplicativo?");
+        builder.setPositiveButton("Sim", (dialog, which) -> {
+            Intent intent = getPackageManager().getLaunchIntentForPackage("com.example.mainproject");
+            if (intent != null) {
+                startActivity(intent);
+                finish();
+            }
+        }).setNegativeButton("Não", null);
+        builder.show();
     }
 }
