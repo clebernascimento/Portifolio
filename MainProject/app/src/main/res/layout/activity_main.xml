@@ -10,7 +10,7 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="50dp"
         android:background="@drawable/cardview"
         android:backgroundTint="@color/colorPrimaryDark"
         android:gravity="center"
@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="Portifóliio"
-            android:textSize="26sp"
+            android:textSize="18sp"
             android:textColor="@android:color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
