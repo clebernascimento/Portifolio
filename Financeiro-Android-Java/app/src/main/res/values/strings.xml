@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Financeiro</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="open_drawer">Abrindo Drawer</string>
+    <string name="close_drawer">Fechando Drawer</string>
+
+    <string name="btn_salvar">Salvar</string>
+    <string name="btn_cancelsr">Cancelar</string>
+    <string name="data">Data</string>
+    <string name="digite_uma_descri_cao">Digite uma descrição</string>
+    <string name="digite_um_valor">Digite um valor</string>
+    <string name="cifrao">R$</string>
+
+    <string name="actionBar_Despesa">Adicionar nova Despesa</string>
+    <string name="actionBar_Ganho">Adicionar novo Ganho</string>
+
+    <string name="drawer_menu_main">Principal</string>
+    <string name="drawer_menu_credito">Cartão de Crédito</string>
+    <string name="drawer_menu_contas">Contas</string>
+    <string name="drawer_menu_parcelamentos">Parcelamentos</string>
+    <string name="drawer_menu_relatorios">Relatórios</string>
+
+    <string name="bank_form_name">Banco</string>
+    <string name="bank_form_Titular">Titular da Conta</string>
+    <string name="bank_form_saldo">Saldo Atual</string>
+    <string name="bank_form_agencia">Agência</string>
+
+    <string-array name="categoria_despesa">
+        <item>Selecione uma despesa</item>
+        <item>Sálario</item>
+        <item>Lazer</item>
+        <item>Conta de Energia</item>
+        <item>Internet</item>
+        <item>Alimentação</item>
+        <item>Automovél</item>
+        <item>Saúde</item>
+        <item>Educação</item>
+        <item>Moradia</item>
+        <item>Outros</item>
+    </string-array>
+
+    <string-array name="categoria_ganho">
+        <item>Selecione um ganho</item>
+        <item>Sálario</item>
+        <item>Lazer</item>
+        <item>Conta de Energia</item>
+        <item>Internet</item>
+        <item>Alimentação</item>
+        <item>Automovél</item>
+        <item>Saúde</item>
+        <item>Educação</item>
+        <item>Moradia</item>
+        <item>Outros</item>
+    </string-array>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">PRÓXIMO</string>
+    <string name="skip">PULAR</string>
+    <string name="start">ENTENDI</string>
+
+    <string name="slide_1_title">Sistema Financeiro Pessoal!</string>
+    <string name="slide_1_desc">Sistema simples para você organizar suas finanças de forma rapida e organizada!</string>
+
+    <string name="slide_2_title">Ganhos e Gastos</string>
+    <string name="slide_2_desc">Adicione seus ganhos e gastos diários!</string>
+
+    <string name="slide_3_title">Contas Pessoais</string>
+    <string name="slide_3_desc">Adicione uma conta bancaria, um cartão de crédito pesssoal e suas contas diárias! </string>
+
+    <string name="slide_4_title">Relatórios, Resumo e Limite</string>
+    <string name="slide_4_desc">Acompanhe seu resumo mensal, limites da sua conta pessoal e de crédito e suas contas parceladas!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="title_activity_splash">SplashActivity</string>
+</resources>

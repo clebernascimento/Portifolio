@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item
+    android:id="@+id/itemMenuMain"
+    android:icon="@drawable/drawer_menu_principal"
+    android:title="@string/drawer_menu_main" />
+<item
+    android:id="@+id/itemMenuBanco"
+    android:icon="@drawable/drawer_bank"
+    android:title="Conta Bancária" />
+<item
+    android:id="@+id/itemMenuCredito"
+    android:icon="@drawable/drawe_menu_credit_card"
+    android:title="@string/drawer_menu_credito" />
+<item
+    android:id="@+id/itemMenuContas"
+    android:icon="@drawable/drawer_menu_contas"
+    android:title="@string/drawer_menu_contas" />
+<item
+    android:id="@+id/itemMenuParcelamento"
+    android:icon="@drawable/drawer_menu_parcelamentos"
+    android:title="@string/drawer_menu_parcelamentos" />
+<item
+    android:id="@+id/itemMenuRelatorio"
+    android:icon="@drawable/drawer_menu_relatorio"
+    android:title="@string/drawer_menu_relatorios" />
+</menu>
