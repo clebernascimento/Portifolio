@@ -1,19 +1,14 @@
 
-G
-java:S1068"*Remove this unused "mAlura" private field.(Ş‡×½8É˜ìãœ.
 J
 java:S1068"(Remove this unused "mImc" private field.(õ·°ïúÿÿÿÿ8É˜ìãœ.
-Q
-java:S1068"/Remove this unused "mUniasselvi" private field.(°®ˆÍşÿÿÿÿ8É˜ìãœ.
-K
-java:S1068".Remove this unused "mFinaceiro" private field.(—äÄŸ8É˜ìãœ.
-I
-java:S1068"'Remove this unused "mGE" private field.(ö­‹‚ıÿÿÿÿ8êíÔ.
->	java:S131(""Add a default case to this switch.(ºÖ8ĞÚöãœ.
 L
 java:S1068"*Remove this unused "mIfood" private field.(ÉĞ‰Ûúÿÿÿÿ8É˜ìãœ.
-Z	java:S106^"9Replace this use of System.out or System.err by a logger.(³ğ¸ûÿÿÿÿ8Ğİ«Õ.
-w
-java:S3923_"[Remove this conditional structure or edit its code blocks so that they're not all the same.(—êŸ8Ğİ«Õ.
-]	java:S125`"<This block of commented-out lines of code should be removed.(–“Åıÿÿÿÿ8Ğİ«Õ.
-W	java:S125b"<This block of commented-out lines of code should be removed.(Œ×Ş78Ğİ«Õ.
+Q
+java:S1068"/Remove this unused "mUniasselvi" private field.(°®ˆÍşÿÿÿÿ8É˜ìãœ.
+>	java:S131(""Add a default case to this switch.(ºÖ8ĞÚöãœ.
+K
+java:S1068".Remove this unused "mFinaceiro" private field.(—äÄŸ8É˜ìãœ.
+G
+java:S1068"*Remove this unused "mAlura" private field.(Ş‡×½8É˜ìãœ.
+I
+java:S1068"'Remove this unused "mGE" private field.(ö­‹‚ıÿÿÿÿ8êíÔ.
