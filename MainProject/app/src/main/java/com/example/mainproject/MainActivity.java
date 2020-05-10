@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.cardView_IMC:
-                Intent iImc = getPackageManager().getLaunchIntentForPackage("i");
+                Intent iImc = getPackageManager().getLaunchIntentForPackage("com.example.calculoimc");
                 if (iImc != null) {
                     startActivity(iImc);
                     finish();
