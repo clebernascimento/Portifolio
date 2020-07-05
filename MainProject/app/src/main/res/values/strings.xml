@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">Portifólio</string>
+    <string name="text_header">Android Developer</string>
+    <string name="text_financeiro">Financeiro</string>
+    <string name="app_financeiro">App Financeiro</string>
+    <string name="version_1_0">Version 1.0</string>
+    <string name="native_android">Native Android</string>
+    <string name="realm">Realm</string>
+    <string name="java">Java</string>
+    <string name="firebase">Firebase</string>
+    <string name="em_desenvolvimento">Em Desenvolvimento...</string>
+    <string name="app_clone_ifood">App Clone Ifood</string>
+    <string name="globo_esporte">Globo Esporte</string>
+    <string name="app_web_globo_esporte">App Web Globo Esporte</string>
+    <string name="webview">WebView</string>
+    <string name="alura">Alura</string>
+    <string name="app_web_alura">App Web Alura</string>
+    <string name="imc">IMC</string>
+    <string name="app_calculo_imc">App Calculo IMC</string>
+    <string name="uniasselvi">Uniasselvi</string>
+    <string name="app_m_dia_uniasselvi">App Média Uniasselvi</string>
+    <string name="no_database">No database</string>
 </resources>
